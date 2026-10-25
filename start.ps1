@@ -21,18 +21,18 @@ Start-Sleep -Seconds 2
 Write-Host "[2/3] Starting Node.js API Gateway (port 3001)..." -ForegroundColor Green
 Start-Process -FilePath "node" -ArgumentList "index.js" -WorkingDirectory "$root\server" -WindowStyle Minimized
 
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 2
 
 # Start React Frontend
 Write-Host "[3/3] Starting React Dashboard (port 5173)..." -ForegroundColor Green
-Start-Process -FilePath "npm" -ArgumentList "run", "dev" -WorkingDirectory "$root\frontend" -WindowStyle Minimized
+Start-Process -FilePath "cmd.exe" -ArgumentList "/c npm run dev" -WorkingDirectory "$root\frontend" -WindowStyle Minimized
 
-Start-Sleep -Seconds 4
+Start-Sleep -Seconds 3
 
 Write-Host ""
-Write-Host "  All services started!" -ForegroundColor Green
+Write-Host "  All services initiated!" -ForegroundColor Green
 Write-Host ""
-Write-Host "  Dashboard  -> http://localhost:5173" -ForegroundColor Cyan
+Write-Host "  Dashboard   -> http://localhost:5173" -ForegroundColor Cyan
 Write-Host "  API Gateway -> http://localhost:3001" -ForegroundColor Cyan
 Write-Host "  Python API  -> http://localhost:8000" -ForegroundColor Cyan
 Write-Host ""
@@ -40,5 +40,6 @@ Write-Host "  Tip: Click the Offline Mock button on the dashboard for an instant
 Write-Host ""
 
 # Open browser
-Start-Sleep -Seconds 2
+Start-Sleep -Seconds 1
 Start-Process "http://localhost:5173"
+
