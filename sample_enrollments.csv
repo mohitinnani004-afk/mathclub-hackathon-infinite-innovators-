@@ -1,0 +1,773 @@
+student_id,course_code,course_name
+CSE0001,MAT1001,Calculus & Linear Algebra
+CSE0001,CSE1001,Problem Solving & Python Programming
+CSE0001,CSE2001,Data Structures & Algorithms
+CSE0001,CSE2002,Object Oriented Programming in Java
+CSE0001,CSE4001,Computer Networks & Protocols
+CSE0001,CSE4002,Theory of Computation
+CSE0002,MAT1001,Calculus & Linear Algebra
+CSE0002,MAT2001,Differential Equations & Complex Variables
+CSE0002,CSE2002,Object Oriented Programming in Java
+CSE0002,CSE3001,Database Management Systems
+CSE0002,CSE4003,Compiler Design
+CSE0002,CSE3003,Design & Analysis of Algorithms
+CSE0003,MAT2001,Differential Equations & Complex Variables
+CSE0003,CSE1001,Problem Solving & Python Programming
+CSE0003,CSE4003,Compiler Design
+CSE0003,CSE4002,Theory of Computation
+CSE0003,CSE4001,Computer Networks & Protocols
+CSE0004,MAT1001,Calculus & Linear Algebra
+CSE0004,MAT2001,Differential Equations & Complex Variables
+CSE0004,CSE3001,Database Management Systems
+CSE0004,CSE2002,Object Oriented Programming in Java
+CSE0004,CSE2001,Data Structures & Algorithms
+CSE0005,CSE1001,Problem Solving & Python Programming
+CSE0005,PHY1001,Engineering Physics
+CSE0005,CSE3002,Operating Systems Principles
+CSE0005,CSE4002,Theory of Computation
+CSE0005,CSE4003,Compiler Design
+CSE0005,CSE2001,Data Structures & Algorithms
+CSE0006,MAT1001,Calculus & Linear Algebra
+CSE0006,MAT2001,Differential Equations & Complex Variables
+CSE0006,CSE4003,Compiler Design
+CSE0006,CSE2001,Data Structures & Algorithms
+CSE0006,CSE3002,Operating Systems Principles
+CSE0007,MAT1001,Calculus & Linear Algebra
+CSE0007,MAT2001,Differential Equations & Complex Variables
+CSE0007,CSE2002,Object Oriented Programming in Java
+CSE0007,CSE3002,Operating Systems Principles
+CSE0007,CSE2001,Data Structures & Algorithms
+CSE0007,CSE4003,Compiler Design
+CSE0008,MAT1001,Calculus & Linear Algebra
+CSE0008,MAT2001,Differential Equations & Complex Variables
+CSE0008,CSE2001,Data Structures & Algorithms
+CSE0008,CSE2002,Object Oriented Programming in Java
+CSE0008,CSE3001,Database Management Systems
+CSE0008,CSE3003,Design & Analysis of Algorithms
+CSE0009,ENG1001,Technical English & Communication
+CSE0009,MAT2001,Differential Equations & Complex Variables
+CSE0009,CSE4002,Theory of Computation
+CSE0009,CSE2001,Data Structures & Algorithms
+CSE0009,CSE2002,Object Oriented Programming in Java
+CSE0010,CSE1001,Problem Solving & Python Programming
+CSE0010,MAT2001,Differential Equations & Complex Variables
+CSE0010,CSE3001,Database Management Systems
+CSE0010,CSE3002,Operating Systems Principles
+CSE0010,CSE2002,Object Oriented Programming in Java
+CSE0011,MAT1001,Calculus & Linear Algebra
+CSE0011,MAT2001,Differential Equations & Complex Variables
+CSE0011,CSE3001,Database Management Systems
+CSE0011,CSE4002,Theory of Computation
+CSE0011,CSE2002,Object Oriented Programming in Java
+CSE0012,CSE1001,Problem Solving & Python Programming
+CSE0012,MAT1001,Calculus & Linear Algebra
+CSE0012,CSE2001,Data Structures & Algorithms
+CSE0012,CSE2002,Object Oriented Programming in Java
+CSE0012,CSE3001,Database Management Systems
+CSE0012,CSE4003,Compiler Design
+CSE0013,CSE1001,Problem Solving & Python Programming
+CSE0013,PHY1001,Engineering Physics
+CSE0013,CSE2002,Object Oriented Programming in Java
+CSE0013,CSE4001,Computer Networks & Protocols
+CSE0013,CSE4002,Theory of Computation
+CSE0013,CSE2001,Data Structures & Algorithms
+CSE0014,CSE1001,Problem Solving & Python Programming
+CSE0014,MAT1001,Calculus & Linear Algebra
+CSE0014,CSE4003,Compiler Design
+CSE0014,CSE2001,Data Structures & Algorithms
+CSE0014,CSE3003,Design & Analysis of Algorithms
+CSE0015,MAT1001,Calculus & Linear Algebra
+CSE0015,CSE1001,Problem Solving & Python Programming
+CSE0015,CSE3001,Database Management Systems
+CSE0015,CSE3002,Operating Systems Principles
+CSE0015,CSE2002,Object Oriented Programming in Java
+CSE0015,CSE3003,Design & Analysis of Algorithms
+CSE0016,MAT1001,Calculus & Linear Algebra
+CSE0016,MAT2001,Differential Equations & Complex Variables
+CSE0016,CSE4003,Compiler Design
+CSE0016,CSE2002,Object Oriented Programming in Java
+CSE0016,CSE3001,Database Management Systems
+CSE0016,CSE3003,Design & Analysis of Algorithms
+CSE0017,PHY1001,Engineering Physics
+CSE0017,MAT1001,Calculus & Linear Algebra
+CSE0017,CSE4002,Theory of Computation
+CSE0017,CSE2001,Data Structures & Algorithms
+CSE0017,CSE2002,Object Oriented Programming in Java
+CSE0018,MAT1001,Calculus & Linear Algebra
+CSE0018,MAT2001,Differential Equations & Complex Variables
+CSE0018,CSE4002,Theory of Computation
+CSE0018,CSE2001,Data Structures & Algorithms
+CSE0018,CSE2002,Object Oriented Programming in Java
+CSE0018,CSE4003,Compiler Design
+CSE0019,MAT1001,Calculus & Linear Algebra
+CSE0019,CSE1001,Problem Solving & Python Programming
+CSE0019,CSE2002,Object Oriented Programming in Java
+CSE0019,CSE3002,Operating Systems Principles
+CSE0019,CSE3001,Database Management Systems
+CSE0019,CSE4002,Theory of Computation
+CSE0020,CSE1001,Problem Solving & Python Programming
+CSE0020,PHY1001,Engineering Physics
+CSE0020,CSE4001,Computer Networks & Protocols
+CSE0020,CSE4003,Compiler Design
+CSE0020,CSE3003,Design & Analysis of Algorithms
+CSE0021,PHY1001,Engineering Physics
+CSE0021,MAT2001,Differential Equations & Complex Variables
+CSE0021,CSE2001,Data Structures & Algorithms
+CSE0021,CSE2002,Object Oriented Programming in Java
+CSE0021,CSE3001,Database Management Systems
+CSE0021,CSE3002,Operating Systems Principles
+CSE0022,MAT2001,Differential Equations & Complex Variables
+CSE0022,PHY1001,Engineering Physics
+CSE0022,CSE3002,Operating Systems Principles
+CSE0022,CSE2002,Object Oriented Programming in Java
+CSE0022,CSE4002,Theory of Computation
+CSE0022,CSE4001,Computer Networks & Protocols
+CSE0023,PHY1001,Engineering Physics
+CSE0023,MAT2001,Differential Equations & Complex Variables
+CSE0023,CSE2002,Object Oriented Programming in Java
+CSE0023,CSE2001,Data Structures & Algorithms
+CSE0023,CSE3003,Design & Analysis of Algorithms
+CSE0023,CSE3001,Database Management Systems
+CSE0024,MAT1001,Calculus & Linear Algebra
+CSE0024,MAT2001,Differential Equations & Complex Variables
+CSE0024,CSE4002,Theory of Computation
+CSE0024,CSE2001,Data Structures & Algorithms
+CSE0024,CSE2002,Object Oriented Programming in Java
+CSE0024,CSE4003,Compiler Design
+CSE0025,MAT1001,Calculus & Linear Algebra
+CSE0025,ENG1001,Technical English & Communication
+CSE0025,CSE4001,Computer Networks & Protocols
+CSE0025,CSE2001,Data Structures & Algorithms
+CSE0025,CSE4002,Theory of Computation
+CSE0026,MAT1001,Calculus & Linear Algebra
+CSE0026,MAT2001,Differential Equations & Complex Variables
+CSE0026,CSE3002,Operating Systems Principles
+CSE0026,CSE3001,Database Management Systems
+CSE0026,CSE2002,Object Oriented Programming in Java
+CSE0026,CSE4001,Computer Networks & Protocols
+CSE0027,MAT1001,Calculus & Linear Algebra
+CSE0027,MAT2001,Differential Equations & Complex Variables
+CSE0027,CSE4003,Compiler Design
+CSE0027,CSE4002,Theory of Computation
+CSE0027,CSE4001,Computer Networks & Protocols
+CSE0027,CSE3003,Design & Analysis of Algorithms
+CSE0028,MAT1001,Calculus & Linear Algebra
+CSE0028,MAT2001,Differential Equations & Complex Variables
+CSE0028,CSE2002,Object Oriented Programming in Java
+CSE0028,CSE3002,Operating Systems Principles
+CSE0028,CSE4003,Compiler Design
+CSE0029,MAT2001,Differential Equations & Complex Variables
+CSE0029,PHY1001,Engineering Physics
+CSE0029,CSE4002,Theory of Computation
+CSE0029,CSE4003,Compiler Design
+CSE0029,CSE4001,Computer Networks & Protocols
+CSE0029,CSE2001,Data Structures & Algorithms
+CSE0030,MAT1001,Calculus & Linear Algebra
+CSE0030,CSE1001,Problem Solving & Python Programming
+CSE0030,CSE4003,Compiler Design
+CSE0030,CSE4002,Theory of Computation
+CSE0030,CSE3003,Design & Analysis of Algorithms
+CSE0030,CSE3002,Operating Systems Principles
+CSE0031,MAT1001,Calculus & Linear Algebra
+CSE0031,MAT2001,Differential Equations & Complex Variables
+CSE0031,CSE3001,Database Management Systems
+CSE0031,CSE4003,Compiler Design
+CSE0031,CSE4002,Theory of Computation
+CSE0032,MAT1001,Calculus & Linear Algebra
+CSE0032,MAT2001,Differential Equations & Complex Variables
+CSE0032,CSE4002,Theory of Computation
+CSE0032,CSE4003,Compiler Design
+CSE0032,CSE3003,Design & Analysis of Algorithms
+CSE0033,CSE1001,Problem Solving & Python Programming
+CSE0033,ENG1001,Technical English & Communication
+CSE0033,CSE2002,Object Oriented Programming in Java
+CSE0033,CSE2001,Data Structures & Algorithms
+CSE0033,CSE3003,Design & Analysis of Algorithms
+CSE0034,PHY1001,Engineering Physics
+CSE0034,MAT2001,Differential Equations & Complex Variables
+CSE0034,CSE2001,Data Structures & Algorithms
+CSE0034,CSE3002,Operating Systems Principles
+CSE0034,CSE4002,Theory of Computation
+CSE0035,PHY1001,Engineering Physics
+CSE0035,MAT2001,Differential Equations & Complex Variables
+CSE0035,CSE3001,Database Management Systems
+CSE0035,CSE4002,Theory of Computation
+CSE0035,CSE3002,Operating Systems Principles
+CSE0035,CSE4001,Computer Networks & Protocols
+CSE0036,MAT1001,Calculus & Linear Algebra
+CSE0036,MAT2001,Differential Equations & Complex Variables
+CSE0036,CSE2001,Data Structures & Algorithms
+CSE0036,CSE4003,Compiler Design
+CSE0036,CSE2002,Object Oriented Programming in Java
+CSE0036,CSE3002,Operating Systems Principles
+CSE0037,MAT1001,Calculus & Linear Algebra
+CSE0037,CSE1001,Problem Solving & Python Programming
+CSE0037,CSE4001,Computer Networks & Protocols
+CSE0037,CSE4003,Compiler Design
+CSE0037,CSE3001,Database Management Systems
+CSE0037,CSE4002,Theory of Computation
+CSE0038,ENG1001,Technical English & Communication
+CSE0038,CSE1001,Problem Solving & Python Programming
+CSE0038,CSE3001,Database Management Systems
+CSE0038,CSE3003,Design & Analysis of Algorithms
+CSE0038,CSE4001,Computer Networks & Protocols
+CSE0038,CSE4002,Theory of Computation
+CSE0039,PHY1001,Engineering Physics
+CSE0039,CSE1001,Problem Solving & Python Programming
+CSE0039,CSE4001,Computer Networks & Protocols
+CSE0039,CSE2001,Data Structures & Algorithms
+CSE0039,CSE4003,Compiler Design
+CSE0040,CSE1001,Problem Solving & Python Programming
+CSE0040,MAT2001,Differential Equations & Complex Variables
+CSE0040,CSE3003,Design & Analysis of Algorithms
+CSE0040,CSE2002,Object Oriented Programming in Java
+CSE0040,CSE4001,Computer Networks & Protocols
+CSE0041,MAT2001,Differential Equations & Complex Variables
+CSE0041,CSE1001,Problem Solving & Python Programming
+CSE0041,CSE2001,Data Structures & Algorithms
+CSE0041,CSE4003,Compiler Design
+CSE0041,CSE3002,Operating Systems Principles
+CSE0041,CSE3003,Design & Analysis of Algorithms
+CSE0042,PHY1001,Engineering Physics
+CSE0042,CSE1001,Problem Solving & Python Programming
+CSE0042,CSE2001,Data Structures & Algorithms
+CSE0042,CSE3002,Operating Systems Principles
+CSE0042,CSE4001,Computer Networks & Protocols
+CSE0043,CSE1001,Problem Solving & Python Programming
+CSE0043,PHY1001,Engineering Physics
+CSE0043,CSE2001,Data Structures & Algorithms
+CSE0043,CSE2002,Object Oriented Programming in Java
+CSE0043,CSE4001,Computer Networks & Protocols
+CSE0043,CSE3001,Database Management Systems
+CSE0044,MAT2001,Differential Equations & Complex Variables
+CSE0044,PHY1001,Engineering Physics
+CSE0044,CSE3001,Database Management Systems
+CSE0044,CSE3002,Operating Systems Principles
+CSE0044,CSE2001,Data Structures & Algorithms
+CSE0045,ENG1001,Technical English & Communication
+CSE0045,MAT1001,Calculus & Linear Algebra
+CSE0045,CSE2001,Data Structures & Algorithms
+CSE0045,CSE3003,Design & Analysis of Algorithms
+CSE0045,CSE4003,Compiler Design
+CSE0045,CSE4001,Computer Networks & Protocols
+CSE0046,MAT1001,Calculus & Linear Algebra
+CSE0046,ENG1001,Technical English & Communication
+CSE0046,CSE4003,Compiler Design
+CSE0046,CSE2001,Data Structures & Algorithms
+CSE0046,CSE2002,Object Oriented Programming in Java
+CSE0047,MAT1001,Calculus & Linear Algebra
+CSE0047,MAT2001,Differential Equations & Complex Variables
+CSE0047,CSE2002,Object Oriented Programming in Java
+CSE0047,CSE3003,Design & Analysis of Algorithms
+CSE0047,CSE4003,Compiler Design
+CSE0048,CSE1001,Problem Solving & Python Programming
+CSE0048,PHY1001,Engineering Physics
+CSE0048,CSE4001,Computer Networks & Protocols
+CSE0048,CSE2002,Object Oriented Programming in Java
+CSE0048,CSE3003,Design & Analysis of Algorithms
+CSE0049,MAT2001,Differential Equations & Complex Variables
+CSE0049,MAT1001,Calculus & Linear Algebra
+CSE0049,CSE2001,Data Structures & Algorithms
+CSE0049,CSE4002,Theory of Computation
+CSE0049,CSE4003,Compiler Design
+CSE0050,CSE1001,Problem Solving & Python Programming
+CSE0050,PHY1001,Engineering Physics
+CSE0050,CSE4003,Compiler Design
+CSE0050,CSE3002,Operating Systems Principles
+CSE0050,CSE3003,Design & Analysis of Algorithms
+CSE0051,MAT1001,Calculus & Linear Algebra
+CSE0051,ENG1001,Technical English & Communication
+CSE0051,CSE2001,Data Structures & Algorithms
+CSE0051,CSE2002,Object Oriented Programming in Java
+CSE0051,CSE3001,Database Management Systems
+CSE0051,CSE3002,Operating Systems Principles
+CSE0052,PHY1001,Engineering Physics
+CSE0052,MAT2001,Differential Equations & Complex Variables
+CSE0052,CSE3003,Design & Analysis of Algorithms
+CSE0052,CSE2002,Object Oriented Programming in Java
+CSE0052,CSE4003,Compiler Design
+CSE0053,MAT2001,Differential Equations & Complex Variables
+CSE0053,CSE1001,Problem Solving & Python Programming
+CSE0053,CSE2002,Object Oriented Programming in Java
+CSE0053,CSE3003,Design & Analysis of Algorithms
+CSE0053,CSE4003,Compiler Design
+CSE0053,CSE2001,Data Structures & Algorithms
+CSE0054,ENG1001,Technical English & Communication
+CSE0054,MAT1001,Calculus & Linear Algebra
+CSE0054,CSE3001,Database Management Systems
+CSE0054,CSE3003,Design & Analysis of Algorithms
+CSE0054,CSE4001,Computer Networks & Protocols
+CSE0055,ENG1001,Technical English & Communication
+CSE0055,CSE1001,Problem Solving & Python Programming
+CSE0055,CSE4001,Computer Networks & Protocols
+CSE0055,CSE2001,Data Structures & Algorithms
+CSE0055,CSE3002,Operating Systems Principles
+CSE0056,PHY1001,Engineering Physics
+CSE0056,ENG1001,Technical English & Communication
+CSE0056,CSE2001,Data Structures & Algorithms
+CSE0056,CSE2002,Object Oriented Programming in Java
+CSE0056,CSE3001,Database Management Systems
+CSE0057,ENG1001,Technical English & Communication
+CSE0057,CSE1001,Problem Solving & Python Programming
+CSE0057,CSE2002,Object Oriented Programming in Java
+CSE0057,CSE2001,Data Structures & Algorithms
+CSE0057,CSE3002,Operating Systems Principles
+CSE0058,MAT1001,Calculus & Linear Algebra
+CSE0058,MAT2001,Differential Equations & Complex Variables
+CSE0058,CSE3002,Operating Systems Principles
+CSE0058,CSE4002,Theory of Computation
+CSE0058,CSE3003,Design & Analysis of Algorithms
+CSE0059,ENG1001,Technical English & Communication
+CSE0059,MAT2001,Differential Equations & Complex Variables
+CSE0059,CSE3003,Design & Analysis of Algorithms
+CSE0059,CSE3002,Operating Systems Principles
+CSE0059,CSE4003,Compiler Design
+CSE0060,PHY1001,Engineering Physics
+CSE0060,ENG1001,Technical English & Communication
+CSE0060,CSE3003,Design & Analysis of Algorithms
+CSE0060,CSE3002,Operating Systems Principles
+CSE0060,CSE4003,Compiler Design
+CSE0061,MAT1001,Calculus & Linear Algebra
+CSE0061,MAT2001,Differential Equations & Complex Variables
+CSE0061,CSE4002,Theory of Computation
+CSE0061,CSE4003,Compiler Design
+CSE0061,CSE3003,Design & Analysis of Algorithms
+CSE0061,CSE3001,Database Management Systems
+CSE0062,MAT1001,Calculus & Linear Algebra
+CSE0062,ENG1001,Technical English & Communication
+CSE0062,CSE2001,Data Structures & Algorithms
+CSE0062,CSE4003,Compiler Design
+CSE0062,CSE2002,Object Oriented Programming in Java
+CSE0062,CSE3001,Database Management Systems
+CSE0063,CSE1001,Problem Solving & Python Programming
+CSE0063,PHY1001,Engineering Physics
+CSE0063,CSE2001,Data Structures & Algorithms
+CSE0063,CSE2002,Object Oriented Programming in Java
+CSE0063,CSE4002,Theory of Computation
+CSE0063,CSE4001,Computer Networks & Protocols
+CSE0064,ENG1001,Technical English & Communication
+CSE0064,PHY1001,Engineering Physics
+CSE0064,CSE4003,Compiler Design
+CSE0064,CSE4001,Computer Networks & Protocols
+CSE0064,CSE3003,Design & Analysis of Algorithms
+CSE0065,MAT1001,Calculus & Linear Algebra
+CSE0065,MAT2001,Differential Equations & Complex Variables
+CSE0065,CSE4001,Computer Networks & Protocols
+CSE0065,CSE3001,Database Management Systems
+CSE0065,CSE2001,Data Structures & Algorithms
+CSE0066,ENG1001,Technical English & Communication
+CSE0066,MAT1001,Calculus & Linear Algebra
+CSE0066,CSE2001,Data Structures & Algorithms
+CSE0066,CSE4002,Theory of Computation
+CSE0066,CSE3002,Operating Systems Principles
+CSE0066,CSE2002,Object Oriented Programming in Java
+CSE0067,MAT2001,Differential Equations & Complex Variables
+CSE0067,PHY1001,Engineering Physics
+CSE0067,CSE3003,Design & Analysis of Algorithms
+CSE0067,CSE3001,Database Management Systems
+CSE0067,CSE2001,Data Structures & Algorithms
+CSE0067,CSE2002,Object Oriented Programming in Java
+CSE0068,ENG1001,Technical English & Communication
+CSE0068,CSE1001,Problem Solving & Python Programming
+CSE0068,CSE2001,Data Structures & Algorithms
+CSE0068,CSE3002,Operating Systems Principles
+CSE0068,CSE2002,Object Oriented Programming in Java
+CSE0068,CSE3001,Database Management Systems
+CSE0069,MAT1001,Calculus & Linear Algebra
+CSE0069,MAT2001,Differential Equations & Complex Variables
+CSE0069,CSE2001,Data Structures & Algorithms
+CSE0069,CSE4002,Theory of Computation
+CSE0069,CSE4003,Compiler Design
+CSE0069,CSE2002,Object Oriented Programming in Java
+CSE0070,ENG1001,Technical English & Communication
+CSE0070,MAT2001,Differential Equations & Complex Variables
+CSE0070,CSE3002,Operating Systems Principles
+CSE0070,CSE4001,Computer Networks & Protocols
+CSE0070,CSE4003,Compiler Design
+ECE0001,MAT2001,Differential Equations & Complex Variables
+ECE0001,CSE1001,Problem Solving & Python Programming
+ECE0001,ECE3002,VLSI Design & System-on-Chip
+ECE0001,ECE4001,Wireless & Cellular Communications
+ECE0001,ECE3003,Microprocessors & Embedded Systems
+ECE0001,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0002,PHY1001,Engineering Physics
+ECE0002,MAT1001,Calculus & Linear Algebra
+ECE0002,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0002,ECE2001,Signals & Systems
+ECE0002,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0003,EEE1001,Basic Electrical & Electronics Engineering
+ECE0003,CSE1001,Problem Solving & Python Programming
+ECE0003,ECE4001,Wireless & Cellular Communications
+ECE0003,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0003,ECE3002,VLSI Design & System-on-Chip
+ECE0004,PHY1001,Engineering Physics
+ECE0004,CSE1001,Problem Solving & Python Programming
+ECE0004,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0004,ECE3002,VLSI Design & System-on-Chip
+ECE0004,ECE3001,Digital Signal Processing
+ECE0004,ECE3003,Microprocessors & Embedded Systems
+ECE0005,MAT2001,Differential Equations & Complex Variables
+ECE0005,MAT1001,Calculus & Linear Algebra
+ECE0005,ECE3001,Digital Signal Processing
+ECE0005,ECE4001,Wireless & Cellular Communications
+ECE0005,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0006,CSE1001,Problem Solving & Python Programming
+ECE0006,MAT2001,Differential Equations & Complex Variables
+ECE0006,ECE3002,VLSI Design & System-on-Chip
+ECE0006,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0006,ECE4001,Wireless & Cellular Communications
+ECE0007,CSE1001,Problem Solving & Python Programming
+ECE0007,MAT2001,Differential Equations & Complex Variables
+ECE0007,ECE3002,VLSI Design & System-on-Chip
+ECE0007,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0007,ECE3003,Microprocessors & Embedded Systems
+ECE0008,MAT1001,Calculus & Linear Algebra
+ECE0008,MAT2001,Differential Equations & Complex Variables
+ECE0008,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0008,ECE3001,Digital Signal Processing
+ECE0008,ECE3002,VLSI Design & System-on-Chip
+ECE0009,EEE1001,Basic Electrical & Electronics Engineering
+ECE0009,CSE1001,Problem Solving & Python Programming
+ECE0009,ECE3002,VLSI Design & System-on-Chip
+ECE0009,ECE3001,Digital Signal Processing
+ECE0009,ECE4001,Wireless & Cellular Communications
+ECE0010,PHY1001,Engineering Physics
+ECE0010,CSE1001,Problem Solving & Python Programming
+ECE0010,ECE3002,VLSI Design & System-on-Chip
+ECE0010,ECE3001,Digital Signal Processing
+ECE0010,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0010,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0011,MAT1001,Calculus & Linear Algebra
+ECE0011,EEE1001,Basic Electrical & Electronics Engineering
+ECE0011,ECE3001,Digital Signal Processing
+ECE0011,ECE3003,Microprocessors & Embedded Systems
+ECE0011,ECE3002,VLSI Design & System-on-Chip
+ECE0011,ECE4001,Wireless & Cellular Communications
+ECE0012,CSE1001,Problem Solving & Python Programming
+ECE0012,PHY1001,Engineering Physics
+ECE0012,ECE3002,VLSI Design & System-on-Chip
+ECE0012,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0012,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0012,ECE2001,Signals & Systems
+ECE0013,EEE1001,Basic Electrical & Electronics Engineering
+ECE0013,PHY1001,Engineering Physics
+ECE0013,ECE2001,Signals & Systems
+ECE0013,ECE3003,Microprocessors & Embedded Systems
+ECE0013,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0014,EEE1001,Basic Electrical & Electronics Engineering
+ECE0014,MAT1001,Calculus & Linear Algebra
+ECE0014,ECE3002,VLSI Design & System-on-Chip
+ECE0014,ECE3001,Digital Signal Processing
+ECE0014,ECE3003,Microprocessors & Embedded Systems
+ECE0014,ECE2001,Signals & Systems
+ECE0015,EEE1001,Basic Electrical & Electronics Engineering
+ECE0015,CSE1001,Problem Solving & Python Programming
+ECE0015,ECE3003,Microprocessors & Embedded Systems
+ECE0015,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0015,ECE2001,Signals & Systems
+ECE0015,ECE4001,Wireless & Cellular Communications
+ECE0016,CSE1001,Problem Solving & Python Programming
+ECE0016,MAT1001,Calculus & Linear Algebra
+ECE0016,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0016,ECE3003,Microprocessors & Embedded Systems
+ECE0016,ECE3002,VLSI Design & System-on-Chip
+ECE0016,ECE3001,Digital Signal Processing
+ECE0017,EEE1001,Basic Electrical & Electronics Engineering
+ECE0017,MAT1001,Calculus & Linear Algebra
+ECE0017,ECE3003,Microprocessors & Embedded Systems
+ECE0017,ECE2001,Signals & Systems
+ECE0017,ECE4001,Wireless & Cellular Communications
+ECE0018,MAT1001,Calculus & Linear Algebra
+ECE0018,MAT2001,Differential Equations & Complex Variables
+ECE0018,ECE2001,Signals & Systems
+ECE0018,ECE3003,Microprocessors & Embedded Systems
+ECE0018,ECE4001,Wireless & Cellular Communications
+ECE0019,CSE1001,Problem Solving & Python Programming
+ECE0019,MAT2001,Differential Equations & Complex Variables
+ECE0019,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0019,ECE2001,Signals & Systems
+ECE0019,ECE3002,VLSI Design & System-on-Chip
+ECE0020,MAT1001,Calculus & Linear Algebra
+ECE0020,MAT2001,Differential Equations & Complex Variables
+ECE0020,ECE3001,Digital Signal Processing
+ECE0020,ECE3002,VLSI Design & System-on-Chip
+ECE0020,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0021,EEE1001,Basic Electrical & Electronics Engineering
+ECE0021,CSE1001,Problem Solving & Python Programming
+ECE0021,ECE4001,Wireless & Cellular Communications
+ECE0021,ECE3003,Microprocessors & Embedded Systems
+ECE0021,ECE3002,VLSI Design & System-on-Chip
+ECE0021,ECE2001,Signals & Systems
+ECE0022,CSE1001,Problem Solving & Python Programming
+ECE0022,PHY1001,Engineering Physics
+ECE0022,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0022,ECE2001,Signals & Systems
+ECE0022,ECE3002,VLSI Design & System-on-Chip
+ECE0022,ECE3003,Microprocessors & Embedded Systems
+ECE0023,MAT1001,Calculus & Linear Algebra
+ECE0023,MAT2001,Differential Equations & Complex Variables
+ECE0023,ECE4001,Wireless & Cellular Communications
+ECE0023,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0023,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0023,ECE3003,Microprocessors & Embedded Systems
+ECE0024,MAT2001,Differential Equations & Complex Variables
+ECE0024,MAT1001,Calculus & Linear Algebra
+ECE0024,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0024,ECE2001,Signals & Systems
+ECE0024,ECE3002,VLSI Design & System-on-Chip
+ECE0024,ECE4001,Wireless & Cellular Communications
+ECE0025,MAT2001,Differential Equations & Complex Variables
+ECE0025,MAT1001,Calculus & Linear Algebra
+ECE0025,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0025,ECE3002,VLSI Design & System-on-Chip
+ECE0025,ECE3001,Digital Signal Processing
+ECE0026,MAT1001,Calculus & Linear Algebra
+ECE0026,MAT2001,Differential Equations & Complex Variables
+ECE0026,ECE2001,Signals & Systems
+ECE0026,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0026,ECE3002,VLSI Design & System-on-Chip
+ECE0026,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0027,MAT1001,Calculus & Linear Algebra
+ECE0027,MAT2001,Differential Equations & Complex Variables
+ECE0027,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0027,ECE4001,Wireless & Cellular Communications
+ECE0027,ECE3003,Microprocessors & Embedded Systems
+ECE0027,ECE3002,VLSI Design & System-on-Chip
+ECE0028,MAT1001,Calculus & Linear Algebra
+ECE0028,MAT2001,Differential Equations & Complex Variables
+ECE0028,ECE3003,Microprocessors & Embedded Systems
+ECE0028,ECE4001,Wireless & Cellular Communications
+ECE0028,ECE3002,VLSI Design & System-on-Chip
+ECE0028,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0029,EEE1001,Basic Electrical & Electronics Engineering
+ECE0029,MAT1001,Calculus & Linear Algebra
+ECE0029,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0029,ECE2001,Signals & Systems
+ECE0029,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0030,MAT1001,Calculus & Linear Algebra
+ECE0030,MAT2001,Differential Equations & Complex Variables
+ECE0030,ECE2001,Signals & Systems
+ECE0030,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0030,ECE3003,Microprocessors & Embedded Systems
+ECE0030,ECE4001,Wireless & Cellular Communications
+ECE0031,MAT1001,Calculus & Linear Algebra
+ECE0031,EEE1001,Basic Electrical & Electronics Engineering
+ECE0031,ECE4001,Wireless & Cellular Communications
+ECE0031,ECE2001,Signals & Systems
+ECE0031,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0032,MAT1001,Calculus & Linear Algebra
+ECE0032,MAT2001,Differential Equations & Complex Variables
+ECE0032,ECE3003,Microprocessors & Embedded Systems
+ECE0032,ECE3001,Digital Signal Processing
+ECE0032,ECE4001,Wireless & Cellular Communications
+ECE0032,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0033,MAT1001,Calculus & Linear Algebra
+ECE0033,CSE1001,Problem Solving & Python Programming
+ECE0033,ECE2001,Signals & Systems
+ECE0033,ECE4001,Wireless & Cellular Communications
+ECE0033,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0033,ECE3003,Microprocessors & Embedded Systems
+ECE0034,MAT1001,Calculus & Linear Algebra
+ECE0034,MAT2001,Differential Equations & Complex Variables
+ECE0034,ECE3001,Digital Signal Processing
+ECE0034,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0034,ECE3002,VLSI Design & System-on-Chip
+ECE0034,ECE2001,Signals & Systems
+ECE0035,MAT1001,Calculus & Linear Algebra
+ECE0035,EEE1001,Basic Electrical & Electronics Engineering
+ECE0035,ECE4001,Wireless & Cellular Communications
+ECE0035,ECE3001,Digital Signal Processing
+ECE0035,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0036,EEE1001,Basic Electrical & Electronics Engineering
+ECE0036,CSE1001,Problem Solving & Python Programming
+ECE0036,ECE3002,VLSI Design & System-on-Chip
+ECE0036,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0036,ECE3001,Digital Signal Processing
+ECE0037,PHY1001,Engineering Physics
+ECE0037,CSE1001,Problem Solving & Python Programming
+ECE0037,ECE2001,Signals & Systems
+ECE0037,ECE3001,Digital Signal Processing
+ECE0037,ECE4001,Wireless & Cellular Communications
+ECE0037,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0038,MAT1001,Calculus & Linear Algebra
+ECE0038,EEE1001,Basic Electrical & Electronics Engineering
+ECE0038,ECE2001,Signals & Systems
+ECE0038,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0038,ECE3001,Digital Signal Processing
+ECE0039,PHY1001,Engineering Physics
+ECE0039,MAT1001,Calculus & Linear Algebra
+ECE0039,ECE3001,Digital Signal Processing
+ECE0039,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0039,ECE2001,Signals & Systems
+ECE0039,ECE3003,Microprocessors & Embedded Systems
+ECE0040,EEE1001,Basic Electrical & Electronics Engineering
+ECE0040,CSE1001,Problem Solving & Python Programming
+ECE0040,ECE3001,Digital Signal Processing
+ECE0040,ECE4001,Wireless & Cellular Communications
+ECE0040,ECE3003,Microprocessors & Embedded Systems
+ECE0041,MAT2001,Differential Equations & Complex Variables
+ECE0041,EEE1001,Basic Electrical & Electronics Engineering
+ECE0041,ECE3001,Digital Signal Processing
+ECE0041,ECE3002,VLSI Design & System-on-Chip
+ECE0041,ECE4001,Wireless & Cellular Communications
+ECE0042,MAT1001,Calculus & Linear Algebra
+ECE0042,MAT2001,Differential Equations & Complex Variables
+ECE0042,ECE3002,VLSI Design & System-on-Chip
+ECE0042,ECE2001,Signals & Systems
+ECE0042,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0042,ECE3001,Digital Signal Processing
+ECE0043,EEE1001,Basic Electrical & Electronics Engineering
+ECE0043,CSE1001,Problem Solving & Python Programming
+ECE0043,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0043,ECE2001,Signals & Systems
+ECE0043,ECE4001,Wireless & Cellular Communications
+ECE0044,EEE1001,Basic Electrical & Electronics Engineering
+ECE0044,CSE1001,Problem Solving & Python Programming
+ECE0044,ECE3003,Microprocessors & Embedded Systems
+ECE0044,ECE3002,VLSI Design & System-on-Chip
+ECE0044,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0045,MAT1001,Calculus & Linear Algebra
+ECE0045,MAT2001,Differential Equations & Complex Variables
+ECE0045,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0045,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0045,ECE2001,Signals & Systems
+ECE0046,EEE1001,Basic Electrical & Electronics Engineering
+ECE0046,CSE1001,Problem Solving & Python Programming
+ECE0046,ECE3002,VLSI Design & System-on-Chip
+ECE0046,ECE2001,Signals & Systems
+ECE0046,ECE3003,Microprocessors & Embedded Systems
+ECE0046,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0047,MAT1001,Calculus & Linear Algebra
+ECE0047,MAT2001,Differential Equations & Complex Variables
+ECE0047,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0047,ECE3001,Digital Signal Processing
+ECE0047,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0048,EEE1001,Basic Electrical & Electronics Engineering
+ECE0048,MAT2001,Differential Equations & Complex Variables
+ECE0048,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0048,ECE3002,VLSI Design & System-on-Chip
+ECE0048,ECE4001,Wireless & Cellular Communications
+ECE0048,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0049,MAT2001,Differential Equations & Complex Variables
+ECE0049,CSE1001,Problem Solving & Python Programming
+ECE0049,ECE2001,Signals & Systems
+ECE0049,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0049,ECE3002,VLSI Design & System-on-Chip
+ECE0050,EEE1001,Basic Electrical & Electronics Engineering
+ECE0050,PHY1001,Engineering Physics
+ECE0050,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0050,ECE4001,Wireless & Cellular Communications
+ECE0050,ECE3003,Microprocessors & Embedded Systems
+ECE0050,ECE3002,VLSI Design & System-on-Chip
+ECE0051,CSE1001,Problem Solving & Python Programming
+ECE0051,MAT1001,Calculus & Linear Algebra
+ECE0051,ECE3002,VLSI Design & System-on-Chip
+ECE0051,ECE3001,Digital Signal Processing
+ECE0051,ECE4001,Wireless & Cellular Communications
+ECE0051,ECE3003,Microprocessors & Embedded Systems
+ECE0052,EEE1001,Basic Electrical & Electronics Engineering
+ECE0052,PHY1001,Engineering Physics
+ECE0052,ECE2001,Signals & Systems
+ECE0052,ECE3003,Microprocessors & Embedded Systems
+ECE0052,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0052,ECE4001,Wireless & Cellular Communications
+ECE0053,PHY1001,Engineering Physics
+ECE0053,CSE1001,Problem Solving & Python Programming
+ECE0053,ECE4001,Wireless & Cellular Communications
+ECE0053,ECE3001,Digital Signal Processing
+ECE0053,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0053,ECE3002,VLSI Design & System-on-Chip
+ECE0054,CSE1001,Problem Solving & Python Programming
+ECE0054,MAT2001,Differential Equations & Complex Variables
+ECE0054,ECE3001,Digital Signal Processing
+ECE0054,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0054,ECE4001,Wireless & Cellular Communications
+ECE0055,MAT2001,Differential Equations & Complex Variables
+ECE0055,CSE1001,Problem Solving & Python Programming
+ECE0055,ECE3003,Microprocessors & Embedded Systems
+ECE0055,ECE2001,Signals & Systems
+ECE0055,ECE4001,Wireless & Cellular Communications
+ECE0055,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0056,MAT2001,Differential Equations & Complex Variables
+ECE0056,MAT1001,Calculus & Linear Algebra
+ECE0056,ECE3001,Digital Signal Processing
+ECE0056,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0056,ECE4001,Wireless & Cellular Communications
+ECE0057,MAT1001,Calculus & Linear Algebra
+ECE0057,CSE1001,Problem Solving & Python Programming
+ECE0057,ECE3001,Digital Signal Processing
+ECE0057,ECE4001,Wireless & Cellular Communications
+ECE0057,ECE3002,VLSI Design & System-on-Chip
+ECE0058,MAT1001,Calculus & Linear Algebra
+ECE0058,MAT2001,Differential Equations & Complex Variables
+ECE0058,ECE3002,VLSI Design & System-on-Chip
+ECE0058,ECE3001,Digital Signal Processing
+ECE0058,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0059,EEE1001,Basic Electrical & Electronics Engineering
+ECE0059,CSE1001,Problem Solving & Python Programming
+ECE0059,ECE2001,Signals & Systems
+ECE0059,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0059,ECE4001,Wireless & Cellular Communications
+ECE0059,ECE3003,Microprocessors & Embedded Systems
+ECE0060,CSE1001,Problem Solving & Python Programming
+ECE0060,PHY1001,Engineering Physics
+ECE0060,ECE4001,Wireless & Cellular Communications
+ECE0060,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0060,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0061,CSE1001,Problem Solving & Python Programming
+ECE0061,EEE1001,Basic Electrical & Electronics Engineering
+ECE0061,ECE2001,Signals & Systems
+ECE0061,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0061,ECE3002,VLSI Design & System-on-Chip
+ECE0061,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0062,MAT1001,Calculus & Linear Algebra
+ECE0062,CSE1001,Problem Solving & Python Programming
+ECE0062,ECE3001,Digital Signal Processing
+ECE0062,ECE2001,Signals & Systems
+ECE0062,ECE3002,VLSI Design & System-on-Chip
+ECE0062,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0063,MAT1001,Calculus & Linear Algebra
+ECE0063,CSE1001,Problem Solving & Python Programming
+ECE0063,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0063,ECE3002,VLSI Design & System-on-Chip
+ECE0063,ECE3001,Digital Signal Processing
+ECE0063,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0064,PHY1001,Engineering Physics
+ECE0064,MAT2001,Differential Equations & Complex Variables
+ECE0064,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0064,ECE3001,Digital Signal Processing
+ECE0064,ECE3003,Microprocessors & Embedded Systems
+ECE0064,ECE4001,Wireless & Cellular Communications
+ECE0065,EEE1001,Basic Electrical & Electronics Engineering
+ECE0065,MAT2001,Differential Equations & Complex Variables
+ECE0065,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0065,ECE3001,Digital Signal Processing
+ECE0065,ECE2001,Signals & Systems
+ECE0066,PHY1001,Engineering Physics
+ECE0066,CSE1001,Problem Solving & Python Programming
+ECE0066,ECE3002,VLSI Design & System-on-Chip
+ECE0066,ECE3003,Microprocessors & Embedded Systems
+ECE0066,ECE3001,Digital Signal Processing
+ECE0066,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0067,MAT1001,Calculus & Linear Algebra
+ECE0067,MAT2001,Differential Equations & Complex Variables
+ECE0067,ECE4001,Wireless & Cellular Communications
+ECE0067,ECE3002,VLSI Design & System-on-Chip
+ECE0067,ECE3001,Digital Signal Processing
+ECE0067,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0068,PHY1001,Engineering Physics
+ECE0068,MAT1001,Calculus & Linear Algebra
+ECE0068,ECE2001,Signals & Systems
+ECE0068,ECE2002,Electronic Devices & Semiconductor Circuits
+ECE0068,ECE3002,VLSI Design & System-on-Chip
+ECE0068,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0069,CSE1001,Problem Solving & Python Programming
+ECE0069,PHY1001,Engineering Physics
+ECE0069,ECE2001,Signals & Systems
+ECE0069,ECE4001,Wireless & Cellular Communications
+ECE0069,ECE4002,Electromagnetic Fields & Wave Propagation
+ECE0070,MAT2001,Differential Equations & Complex Variables
+ECE0070,CSE1001,Problem Solving & Python Programming
+ECE0070,ECE3003,Microprocessors & Embedded Systems
+ECE0070,ECE3001,Digital Signal Processing
+ECE0070,ECE3002,VLSI Design & System-on-Chip

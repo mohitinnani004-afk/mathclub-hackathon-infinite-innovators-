@@ -1,0 +1,3871 @@
+{
+  "metadata": {
+    "title": "Smart Exam Slot Management - Starter Sample Dataset",
+    "total_students": 140,
+    "total_courses": 21,
+    "total_enrollments": 772,
+    "classroom_capacity": 70
+  },
+  "enrollments": [
+    {
+      "student_id": "CSE0001",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0001",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0001",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0001",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0001",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0001",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0002",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0002",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0002",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0002",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0002",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0002",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0003",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0003",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0003",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0003",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0003",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0004",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0004",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0004",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0004",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0004",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0005",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0005",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0005",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0005",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0005",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0005",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0006",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0006",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0006",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0006",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0006",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0007",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0007",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0007",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0007",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0007",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0007",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0008",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0008",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0008",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0008",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0008",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0008",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0009",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0009",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0009",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0009",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0009",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0010",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0010",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0010",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0010",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0010",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0011",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0011",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0011",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0011",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0011",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0012",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0012",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0012",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0012",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0012",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0012",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0013",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0013",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0013",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0013",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0013",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0013",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0014",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0014",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0014",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0014",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0014",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0015",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0015",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0015",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0015",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0015",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0015",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0016",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0016",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0016",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0016",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0016",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0016",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0017",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0017",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0017",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0017",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0017",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0018",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0018",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0018",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0018",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0018",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0018",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0019",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0019",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0019",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0019",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0019",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0019",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0020",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0020",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0020",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0020",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0020",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0021",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0021",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0021",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0021",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0021",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0021",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0022",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0022",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0022",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0022",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0022",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0022",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0023",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0023",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0023",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0023",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0023",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0023",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0024",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0024",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0024",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0024",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0024",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0024",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0025",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0025",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0025",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0025",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0025",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0026",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0026",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0026",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0026",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0026",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0026",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0027",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0027",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0027",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0027",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0027",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0027",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0028",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0028",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0028",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0028",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0028",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0029",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0029",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0029",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0029",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0029",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0029",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0030",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0030",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0030",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0030",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0030",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0030",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0031",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0031",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0031",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0031",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0031",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0032",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0032",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0032",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0032",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0032",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0033",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0033",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0033",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0033",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0033",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0034",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0034",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0034",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0034",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0034",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0035",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0035",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0035",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0035",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0035",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0035",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0036",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0036",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0036",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0036",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0036",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0036",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0037",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0037",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0037",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0037",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0037",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0037",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0038",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0038",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0038",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0038",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0038",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0038",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0039",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0039",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0039",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0039",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0039",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0040",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0040",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0040",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0040",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0040",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0041",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0041",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0041",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0041",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0041",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0041",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0042",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0042",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0042",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0042",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0042",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0043",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0043",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0043",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0043",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0043",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0043",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0044",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0044",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0044",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0044",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0044",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0045",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0045",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0045",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0045",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0045",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0045",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0046",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0046",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0046",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0046",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0046",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0047",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0047",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0047",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0047",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0047",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0048",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0048",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0048",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0048",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0048",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0049",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0049",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0049",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0049",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0049",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0050",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0050",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0050",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0050",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0050",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0051",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0051",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0051",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0051",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0051",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0051",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0052",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0052",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0052",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0052",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0052",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0053",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0053",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0053",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0053",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0053",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0053",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0054",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0054",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0054",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0054",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0054",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0055",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0055",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0055",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0055",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0055",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0056",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0056",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0056",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0056",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0056",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0057",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0057",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0057",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0057",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0057",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0058",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0058",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0058",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0058",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0058",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0059",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0059",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0059",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0059",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0059",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0060",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0060",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0060",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0060",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0060",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0061",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0061",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0061",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0061",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0061",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0061",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0062",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0062",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0062",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0062",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0062",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0062",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0063",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0063",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0063",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0063",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0063",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0063",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0064",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0064",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0064",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0064",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0064",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0065",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0065",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0065",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0065",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0065",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0066",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0066",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0066",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0066",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0066",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0066",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0067",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0067",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "CSE0067",
+      "course_code": "CSE3003",
+      "course_name": "Design & Analysis of Algorithms"
+    },
+    {
+      "student_id": "CSE0067",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0067",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0067",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0068",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0068",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "CSE0068",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0068",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0068",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0068",
+      "course_code": "CSE3001",
+      "course_name": "Database Management Systems"
+    },
+    {
+      "student_id": "CSE0069",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "CSE0069",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0069",
+      "course_code": "CSE2001",
+      "course_name": "Data Structures & Algorithms"
+    },
+    {
+      "student_id": "CSE0069",
+      "course_code": "CSE4002",
+      "course_name": "Theory of Computation"
+    },
+    {
+      "student_id": "CSE0069",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "CSE0069",
+      "course_code": "CSE2002",
+      "course_name": "Object Oriented Programming in Java"
+    },
+    {
+      "student_id": "CSE0070",
+      "course_code": "ENG1001",
+      "course_name": "Technical English & Communication"
+    },
+    {
+      "student_id": "CSE0070",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "CSE0070",
+      "course_code": "CSE3002",
+      "course_name": "Operating Systems Principles"
+    },
+    {
+      "student_id": "CSE0070",
+      "course_code": "CSE4001",
+      "course_name": "Computer Networks & Protocols"
+    },
+    {
+      "student_id": "CSE0070",
+      "course_code": "CSE4003",
+      "course_name": "Compiler Design"
+    },
+    {
+      "student_id": "ECE0001",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0001",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0001",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0001",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0001",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0001",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0002",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0002",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0002",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0002",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0002",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0003",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0003",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0003",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0003",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0003",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0004",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0004",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0004",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0004",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0004",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0004",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0005",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0005",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0005",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0005",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0005",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0006",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0006",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0006",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0006",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0006",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0007",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0007",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0007",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0007",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0007",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0008",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0008",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0008",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0008",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0008",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0009",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0009",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0009",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0009",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0009",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0010",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0010",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0010",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0010",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0010",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0010",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0011",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0011",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0011",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0011",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0011",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0011",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0012",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0012",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0012",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0012",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0012",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0012",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0013",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0013",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0013",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0013",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0013",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0014",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0014",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0014",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0014",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0014",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0014",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0015",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0015",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0015",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0015",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0015",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0015",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0016",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0016",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0016",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0016",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0016",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0016",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0017",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0017",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0017",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0017",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0017",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0018",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0018",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0018",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0018",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0018",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0019",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0019",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0019",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0019",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0019",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0020",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0020",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0020",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0020",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0020",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0021",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0021",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0021",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0021",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0021",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0021",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0022",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0022",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0022",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0022",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0022",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0022",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0023",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0023",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0023",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0023",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0023",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0023",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0024",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0024",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0024",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0024",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0024",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0024",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0025",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0025",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0025",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0025",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0025",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0026",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0026",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0026",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0026",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0026",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0026",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0027",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0027",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0027",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0027",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0027",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0027",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0028",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0028",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0028",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0028",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0028",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0028",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0029",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0029",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0029",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0029",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0029",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0030",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0030",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0030",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0030",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0030",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0030",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0031",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0031",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0031",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0031",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0031",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0032",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0032",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0032",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0032",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0032",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0032",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0033",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0033",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0033",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0033",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0033",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0033",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0034",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0034",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0034",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0034",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0034",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0034",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0035",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0035",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0035",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0035",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0035",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0036",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0036",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0036",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0036",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0036",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0037",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0037",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0037",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0037",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0037",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0037",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0038",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0038",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0038",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0038",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0038",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0039",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0039",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0039",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0039",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0039",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0039",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0040",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0040",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0040",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0040",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0040",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0041",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0041",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0041",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0041",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0041",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0042",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0042",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0042",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0042",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0042",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0042",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0043",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0043",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0043",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0043",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0043",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0044",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0044",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0044",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0044",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0044",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0045",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0045",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0045",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0045",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0045",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0046",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0046",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0046",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0046",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0046",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0046",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0047",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0047",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0047",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0047",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0047",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0048",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0048",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0048",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0048",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0048",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0048",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0049",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0049",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0049",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0049",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0049",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0050",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0050",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0050",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0050",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0050",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0050",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0051",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0051",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0051",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0051",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0051",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0051",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0052",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0052",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0052",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0052",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0052",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0052",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0053",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0053",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0053",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0053",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0053",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0053",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0054",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0054",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0054",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0054",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0054",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0055",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0055",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0055",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0055",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0055",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0055",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0056",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0056",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0056",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0056",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0056",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0057",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0057",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0057",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0057",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0057",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0058",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0058",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0058",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0058",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0058",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0059",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0059",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0059",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0059",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0059",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0059",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0060",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0060",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0060",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0060",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0060",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0061",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0061",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0061",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0061",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0061",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0061",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0062",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0062",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0062",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0062",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0062",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0062",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0063",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0063",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0063",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0063",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0063",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0063",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0064",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0064",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0064",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0064",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0064",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0064",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0065",
+      "course_code": "EEE1001",
+      "course_name": "Basic Electrical & Electronics Engineering"
+    },
+    {
+      "student_id": "ECE0065",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0065",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0065",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0065",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0066",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0066",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0066",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0066",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0066",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0066",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0067",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0067",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0067",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0067",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0067",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0067",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0068",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0068",
+      "course_code": "MAT1001",
+      "course_name": "Calculus & Linear Algebra"
+    },
+    {
+      "student_id": "ECE0068",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0068",
+      "course_code": "ECE2002",
+      "course_name": "Electronic Devices & Semiconductor Circuits"
+    },
+    {
+      "student_id": "ECE0068",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    },
+    {
+      "student_id": "ECE0068",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0069",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0069",
+      "course_code": "PHY1001",
+      "course_name": "Engineering Physics"
+    },
+    {
+      "student_id": "ECE0069",
+      "course_code": "ECE2001",
+      "course_name": "Signals & Systems"
+    },
+    {
+      "student_id": "ECE0069",
+      "course_code": "ECE4001",
+      "course_name": "Wireless & Cellular Communications"
+    },
+    {
+      "student_id": "ECE0069",
+      "course_code": "ECE4002",
+      "course_name": "Electromagnetic Fields & Wave Propagation"
+    },
+    {
+      "student_id": "ECE0070",
+      "course_code": "MAT2001",
+      "course_name": "Differential Equations & Complex Variables"
+    },
+    {
+      "student_id": "ECE0070",
+      "course_code": "CSE1001",
+      "course_name": "Problem Solving & Python Programming"
+    },
+    {
+      "student_id": "ECE0070",
+      "course_code": "ECE3003",
+      "course_name": "Microprocessors & Embedded Systems"
+    },
+    {
+      "student_id": "ECE0070",
+      "course_code": "ECE3001",
+      "course_name": "Digital Signal Processing"
+    },
+    {
+      "student_id": "ECE0070",
+      "course_code": "ECE3002",
+      "course_name": "VLSI Design & System-on-Chip"
+    }
+  ]
+}
