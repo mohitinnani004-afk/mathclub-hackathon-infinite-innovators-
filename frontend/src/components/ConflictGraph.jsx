@@ -23,25 +23,7 @@ export default function ConflictGraph({ data }) {
       return {
         id:    n.id,
         label: n.id,
-        title: `<div style="
-          font-family: Inter, sans-serif;
-          padding: 10px 14px;
-          background: #0f1629;
-          border: 1px solid rgba(255,255,255,0.12);
-          border-radius: 8px;
-          color: #f1f5f9;
-          min-width: 180px;
-        ">
-          <div style="font-weight:700;margin-bottom:4px">${n.id}</div>
-          <div style="color:#94a3b8;font-size:12px">${n.label}</div>
-          <div style="margin-top:8px;font-size:12px">
-            <span style="color:${color};font-weight:600">Slot ${n.slot}</span>
-            &nbsp;|&nbsp;
-            ${n.student_count} students
-            &nbsp;|&nbsp;
-            ${n.degree} conflicts
-          </div>
-        </div>`,
+        title: `${n.id}\n${n.label}\nSlot ${n.slot} | ${n.student_count} students | ${n.degree} conflicts`,
         size:         Math.max(18, Math.min(n.student_count / 6, 42)),
         color: {
           background: color,
