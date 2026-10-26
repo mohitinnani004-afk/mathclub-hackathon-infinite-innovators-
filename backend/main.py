@@ -129,7 +129,7 @@ def build_conflict_graph(records: List[Dict[str, str]]) -> nx.Graph:
 
     for r in records:
         code = r["course_code"]
-        course_names[code] = r.get("course_name", code)
+        course_names[code] = r.get("course_name") or code
         student_per_course[code].add(r["student_id"])
 
     for code, name in course_names.items():
@@ -232,14 +232,15 @@ def build_output_schema(
     unique_students = {r["student_id"] for r in records}
     unique_courses  = {r["course_code"] for r in records}
     slots_used      = max(coloring.values()) if coloring else 0
-    clashes_resolved = G.number_of_edges()
+    conflict_pairs = G.number_of_edges()
+    overflow_courses = []
 
     # Per-course student counts & course names
     course_student_map: Dict[str, set] = defaultdict(set)
     course_names: Dict[str, str] = {}
     for r in records:
         course_student_map[r["course_code"]].add(r["student_id"])
-        course_names[r["course_code"]] = r.get("course_name", r["course_code"])
+        course_names[r["course_code"]] = r.get("course_name") or r["course_code"]
 
     # Group courses by slot
     slot_courses: Dict[int, List[str]] = defaultdict(list)
@@ -269,6 +270,10 @@ def build_output_schema(
 
         # Allocate non-colliding rooms sequentially across CB (Floor 1-5), AB1 (1-4), AB2 (1-4)
         allocate_slot_rooms(courses_in_slot, rooms)
+        overflow_courses.extend(
+            c["course_code"] for c in courses_in_slot
+            if any(room.get("type") == "overflow" for room in c.get("rooms", []))
+        )
 
         for c in courses_in_slot:
             for rm in c.get("rooms", []):
@@ -314,8 +319,10 @@ def build_output_schema(
             "total_students":    len(unique_students),
             "total_courses":     len(unique_courses),
             "slots_required":    slots_used,
-            "clashes_resolved":  clashes_resolved,
-            "chromatic_number":  slots_used,
+            "conflict_pairs":    conflict_pairs,
+            "slot_count_is_heuristic": True,
+            "room_allocation_feasible": not overflow_courses,
+            "overflow_courses": sorted(set(overflow_courses)),
             "graph_density":     round(nx.density(G), 4),
             "algorithm":         "Welsh-Powell Graph Coloring",
             "total_rooms":       len(rooms),
@@ -354,7 +361,7 @@ def parse_csv_content(content: str) -> List[Dict[str, str]]:
         norm = {k.strip().lower().replace(" ", "_"): str(v).strip() for k, v in row.items()}
         normalized.append(norm)
 
-    required = {"student_id", "course_code", "course_name"}
+    required = {"student_id", "course_code"}
     missing = required - set(normalized[0].keys())
     if missing:
         raise ValueError(f"Missing required columns: {missing}")
@@ -364,7 +371,7 @@ def parse_csv_content(content: str) -> List[Dict[str, str]]:
     for row in normalized:
         sid  = row.get("student_id", "").strip()
         code = row.get("course_code", "").strip().upper()
-        name = row.get("course_name", "").strip()
+        name = row.get("course_name", "").strip() or code
         if not sid or not code:
             continue
         key = (sid, code)
@@ -440,7 +447,7 @@ async def schedule_exams(
                 {
                     "student_id":  str(r.get("student_id", "")).strip(),
                     "course_code": str(r.get("course_code", "")).strip().upper(),
-                    "course_name": str(r.get("course_name", "")).strip()
+                    "course_name": str(r.get("course_name") or r.get("course_code", "")).strip()
                 }
                 for r in raw if r.get("student_id") and r.get("course_code")
             ]
@@ -472,7 +479,7 @@ async def solve_from_json(payload: dict):
             {
                 "student_id":  str(r.get("student_id", "")).strip(),
                 "course_code": str(r.get("course_code", "")).strip().upper(),
-                "course_name": str(r.get("course_name", "")).strip()
+                "course_name": str(r.get("course_name") or r.get("course_code", "")).strip()
             }
             for r in enrollments if r.get("student_id") and r.get("course_code")
         ]

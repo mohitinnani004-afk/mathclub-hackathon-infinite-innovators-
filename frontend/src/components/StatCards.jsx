@@ -4,8 +4,8 @@
  * Displays key metrics from the summary object:
  *  - Total Students (4,000)
  *  - Total Courses (48+ courses across 8 branches)
- *  - Exam Slots Required (chromatic number χ(G))
- *  - Conflict Clashes Prevented
+ *  - Exam Slots Used (heuristic result)
+ *  - Conflicting Course Pairs
  *  - Campus Classrooms (130 Classrooms @ 70 capacity)
  *  - 3 Campus Blocks (CB: 5 Floors, AB1: 4 Floors, AB2: 4 Floors)
  */
@@ -30,19 +30,19 @@ export default function StatCards({ summary }) {
     },
     {
       key:   'slots_required',
-      val:   summary ? (summary.slots_required ?? summary.chromatic_number ?? 13) : null,
-      label: 'Exam Slots χ(G)',
+      val:   summary ? (summary.slots_required ?? 13) : null,
+      label: 'Exam Slots Used',
       icon:  '🗓️',
       color: '#f59e0b',
-      desc:  'Chromatic number (optimal)'
+      desc:  'Welsh-Powell heuristic result'
     },
     {
-      key:   'clashes_resolved',
-      val:   summary ? (summary.clashes_resolved ?? 350).toLocaleString() : null,
-      label: 'Clashes Resolved',
+      key:   'conflict_pairs',
+      val:   summary ? (summary.conflict_pairs ?? 0).toLocaleString() : null,
+      label: 'Conflicting Course Pairs',
       icon:  '⚡',
       color: '#f43f5e',
-      desc:  'Zero student overlaps'
+      desc:  'Edges in the conflict graph'
     },
     {
       key:   'classrooms',

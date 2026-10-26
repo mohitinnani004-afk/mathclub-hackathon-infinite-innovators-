@@ -58,7 +58,7 @@ export default function App() {
       setScheduleData(res.data);
       setMode('live');
       setActiveView('graph');
-      showToast(`✨ Schedule computed! ${res.data.summary.slots_required} slots, ${res.data.summary.clashes_resolved} clashes resolved.`);
+      showToast(`✨ Schedule computed! ${res.data.summary.slots_required} slots used across ${res.data.summary.conflict_pairs} conflicting course pairs.`);
     } catch (err) {
       const msg = err.response?.data?.error || err.message;
       if (err.code === 'ECONNREFUSED' || err.message?.includes('Network Error')) {
@@ -105,7 +105,7 @@ export default function App() {
       setScheduleData(res.data);
       setMode('live');
       setActiveView('graph');
-      showToast(`Demo loaded! χ(G) = ${res.data.summary.chromatic_number} — optimal slot assignment`);
+      showToast(`Demo loaded! Welsh-Powell used ${res.data.summary.slots_required} exam slots.`);
     } catch (err) {
       showToast('Backend unavailable — loading offline mock', 'error');
       setScheduleData(MOCK_DATA);
@@ -191,8 +191,8 @@ export default function App() {
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <div className="algo-pill">
-            <span>χ(G)</span>
-            Welsh-Powell Graph Coloring
+            <span>Graph</span>
+            Welsh-Powell Heuristic
           </div>
 
           {mode !== 'idle' && (
@@ -274,7 +274,7 @@ export default function App() {
               margin: '0 auto 36px',
               lineHeight: 1.7
             }}>
-              Graph coloring meets campus-scale exam scheduling. <strong>4,000 students</strong> across <strong>8 engineering branches</strong> mapped seamlessly into <strong>CB, AB1, and AB2</strong> blocks with <strong>70-student classrooms</strong> — zero timetable conflicts guaranteed by Welsh-Powell χ(G).
+              Graph coloring helps build campus exam schedules. <strong>4,000 students</strong> across <strong>8 engineering branches</strong> mapped into <strong>CB, AB1, and AB2</strong> blocks with <strong>70-student classrooms</strong> — no student has overlapping exams in the generated schedule.
             </p>
 
             {/* Feature pills */}
@@ -283,7 +283,7 @@ export default function App() {
                 { icon: '🎓', text: '4,000 Students · 8 Branches' },
                 { icon: '🏛️', text: '70 Students / Classroom' },
                 { icon: '🏢', text: 'CB (5 Flr) · AB1 (4 Flr) · AB2 (4 Flr)' },
-                { icon: '🔢', text: 'Welsh-Powell χ(G) Coloring' },
+                { icon: '🔢', text: 'Welsh-Powell Graph Coloring' },
                 { icon: '⚡', text: '0 Clashes Guaranteed' }
               ].map(f => (
                 <div key={f.text} style={{
@@ -352,7 +352,7 @@ export default function App() {
                 {[
                   { step: '1', desc: 'Build G=(V,E) conflict graph', detail: 'V=courses, E=shared students' },
                   { step: '2', desc: 'Welsh-Powell coloring', detail: 'Sort by degree → greedy assign' },
-                  { step: '3', desc: 'Compute χ(G)', detail: 'Chromatic number = min slots' },
+                  { step: '3', desc: 'Assign exam slots', detail: 'Greedy heuristic; result may not be minimum' },
                   { step: '4', desc: 'Bin-packing rooms', detail: 'Greedy first-fit decreasing' }
                 ].map(s => (
                   <div key={s.step} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
@@ -403,9 +403,9 @@ export default function App() {
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
                   {[
-                    ['Chromatic Number χ(G)', scheduleData.summary.chromatic_number],
+                    ['Slots Used (heuristic)', scheduleData.summary.slots_required],
                     ['Graph Density', scheduleData.summary.graph_density],
-                    ['Conflict Edges', scheduleData.summary.clashes_resolved],
+                    ['Conflicting Course Pairs', scheduleData.summary.conflict_pairs],
                     ['Algorithm', scheduleData.summary.algorithm?.split(' ').slice(0,2).join(' ')],
                   ].map(([k, v]) => (
                     <div key={k} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 12 }}>
@@ -421,6 +421,11 @@ export default function App() {
           {/* ── RIGHT PANEL: Visualization (only after schedule) ── */}
           {scheduleData && (
             <div className="fade-in" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+              {scheduleData.summary.room_allocation_feasible === false && (
+                <div role="alert" style={{ padding: 14, borderRadius: 10, color: '#fecaca', background: 'rgba(239,68,68,0.12)', border: '1px solid rgba(239,68,68,0.35)' }}>
+                  Room capacity is insufficient for every course. Additional rooms are needed for: {scheduleData.summary.overflow_courses.join(', ')}.
+                </div>
+              )}
               {/* View toggle */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div className="tabs">
@@ -474,8 +479,7 @@ export default function App() {
                   lineHeight: 1.6
                 }}>
                   <strong>Visual Proof:</strong> No two connected nodes (courses with shared students) share the same color.
-                  This is the definition of a valid graph coloring — guaranteeing <strong>zero exam clashes</strong>.
-                  The number of colors used is χ(G) = <strong>{scheduleData.summary.chromatic_number}</strong> (minimum possible).
+                  This is a valid graph coloring, so students have no overlapping exams. Welsh-Powell used <strong>{scheduleData.summary.slots_required}</strong> slots; a greedy coloring does not guarantee the minimum.
                 </div>
               )}
             </div>
@@ -494,7 +498,7 @@ export default function App() {
           }}>
             <div style={{ fontSize: '2.5rem', marginBottom: 12, opacity: 0.4 }}>🕸️</div>
             <p style={{ fontSize: 14, marginBottom: 8 }}>
-              The conflict graph and optimal schedule will appear here
+              The conflict graph and generated schedule will appear here
             </p>
             <p style={{ fontSize: 12, color: '#334155' }}>
               Upload a CSV or click "Offline Mock" to see a demo instantly

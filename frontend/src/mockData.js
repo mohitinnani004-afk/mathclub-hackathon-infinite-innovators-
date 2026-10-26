@@ -1,13 +1,15 @@
 // Mock data — 4,000 students across 3 campus blocks (CB, AB1, AB2)
-// 70 students per classroom, zero exam clashes via Welsh-Powell graph coloring
+// 70 students per classroom, no student has overlapping exams
 
 export const MOCK_DATA = {
   "summary": {
     "total_students": 4000,
     "total_courses": 52,
     "slots_required": 13,
-    "clashes_resolved": 350,
-    "chromatic_number": 13,
+    "conflict_pairs": 350,
+    "slot_count_is_heuristic": true,
+    "room_allocation_feasible": true,
+    "overflow_courses": [],
     "graph_density": 0.264,
     "algorithm": "Welsh-Powell Graph Coloring",
     "total_rooms": 208,

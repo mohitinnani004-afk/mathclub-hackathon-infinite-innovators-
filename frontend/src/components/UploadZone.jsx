@@ -1,6 +1,8 @@
 import { useCallback, useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 
+const API_GATEWAY = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
 /**
  * UploadZone — Member 3: Drag-and-drop CSV Upload
  *
@@ -97,7 +99,7 @@ export default function UploadZone({ onUpload, onDemo, loading }) {
       }}>
         Required columns: <span style={{ color: '#93c5fd' }}>student_id</span>,{' '}
         <span style={{ color: '#6ee7b7' }}>course_code</span>,{' '}
-        <span style={{ color: '#fcd34d' }}>course_name</span>
+        <span style={{ color: '#fcd34d' }}>course_name (optional)</span>
       </div>
 
       {/* Sample files download */}
@@ -115,28 +117,28 @@ export default function UploadZone({ onUpload, onDemo, loading }) {
         <span style={{ color: '#93c5fd', fontWeight: 600 }}>📥 Sample Files:</span>
         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
           <a
-            href="http://localhost:3001/api/sample/csv"
+            href={`${API_GATEWAY}/api/sample/csv`}
             download="sample_enrollments.csv"
             style={{ color: '#6ee7b7', textDecoration: 'none', background: 'rgba(16,185,129,0.15)', padding: '3px 8px', borderRadius: 5, fontWeight: 600, fontSize: 11 }}
           >
             Starter .CSV
           </a>
           <a
-            href="http://localhost:3001/api/sample/json"
+            href={`${API_GATEWAY}/api/sample/json`}
             download="sample_enrollments.json"
             style={{ color: '#fcd34d', textDecoration: 'none', background: 'rgba(245,158,11,0.15)', padding: '3px 8px', borderRadius: 5, fontWeight: 600, fontSize: 11 }}
           >
             Starter .JSON
           </a>
           <a
-            href="http://localhost:3001/api/sample/4000/csv"
+            href={`${API_GATEWAY}/api/sample/4000/csv`}
             download="sample_enrollments_4000.csv"
             style={{ color: '#93c5fd', textDecoration: 'none', background: 'rgba(59,130,246,0.2)', padding: '3px 8px', borderRadius: 5, fontWeight: 600, fontSize: 11 }}
           >
             4K .CSV
           </a>
           <a
-            href="http://localhost:3001/api/sample/4000/json"
+            href={`${API_GATEWAY}/api/sample/4000/json`}
             download="sample_enrollments_4000.json"
             style={{ color: '#c4b5fd', textDecoration: 'none', background: 'rgba(139,92,246,0.2)', padding: '3px 8px', borderRadius: 5, fontWeight: 600, fontSize: 11 }}
           >

@@ -5,8 +5,8 @@
  *
  * Responsibilities:
  *  - POST /api/upload    — CSV file validation + forward to Python solver
- *  - GET  /api/export/csv   — Download schedule as Excel/CSV
- *  - GET  /api/export/html  — Printable HTML view
+ *  - POST /api/export/excel — Download schedule as an Excel workbook
+ *  - POST /api/export/html  — Printable HTML view
  *  - GET  /api/demo/:size   — Serve pre-generated demo datasets
  */
 
@@ -52,7 +52,7 @@ const upload = multer({
 function validateRows(rows) {
   const errors = [];
   const seen = new Set();
-  const required = ["student_id", "course_code", "course_name"];
+  const required = ["student_id", "course_code"];
 
   rows.forEach((row, idx) => {
     const lineNum = idx + 2; // +2 for header + 1-indexed
@@ -108,6 +108,16 @@ function parseCSVBuffer(buffer) {
   });
 }
 
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>\"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;",
+  })[char]);
+}
+
 // ─────────────────────────────────────────────
 // Routes
 // ─────────────────────────────────────────────
@@ -119,8 +129,8 @@ app.get("/", (req, res) => {
     endpoints: [
       "POST /api/upload",
       "POST /api/solve-json",
-      "GET  /api/export/csv?data=<base64>",
-      "GET  /api/export/html?data=<base64>",
+      "POST /api/export/excel",
+      "POST /api/export/html",
       "GET  /api/demo/small",
       "GET  /api/demo/realistic",
     ],
@@ -240,8 +250,8 @@ app.post("/api/export/excel", async (req, res) => {
     const summaryRows = [
       ["Total Students", summary.total_students],
       ["Total Courses", summary.total_courses],
-      ["Exam Slots Required (Chromatic Number)", summary.slots_required],
-      ["Conflict Clashes Resolved", summary.clashes_resolved],
+      ["Exam Slots Used (Welsh-Powell heuristic)", summary.slots_required],
+      ["Conflicting Course Pairs", summary.conflict_pairs],
       ["Graph Density", summary.graph_density],
       ["Algorithm", summary.algorithm],
       ["Campus Blocks", "CB (5 Floors), AB1 (4 Floors), AB2 (4 Floors)"],
@@ -389,26 +399,26 @@ app.post("/api/export/html", (req, res) => {
       let coursesHTML = "";
       (slot.courses || []).forEach((course) => {
         const roomStr = (course.rooms || [])
-          .map((r) => `<span class="room-tag">${r.block ? `[${r.block} F${r.floor}] ` : ''}${r.room_id}: <strong>${r.assigned_count}/${r.capacity || 70}</strong></span>`)
+          .map((r) => `<span class="room-tag">${r.block ? `[${escapeHtml(r.block)} F${escapeHtml(r.floor)}] ` : ''}${escapeHtml(r.room_id)}: <strong>${escapeHtml(r.assigned_count)}/${escapeHtml(r.capacity || 70)}</strong></span>`)
           .join(" ");
         coursesHTML += `
           <div class="course-card">
             <div class="course-header">
-              <strong style="color: ${color}; font-size: 1.1rem;">${course.course_code}</strong>
-              <span class="badge">${course.student_count} students</span>
+              <strong style="color: ${color}; font-size: 1.1rem;">${escapeHtml(course.course_code)}</strong>
+              <span class="badge">${escapeHtml(course.student_count)} students</span>
             </div>
-            <div class="course-name">${course.course_name}</div>
+            <div class="course-name">${escapeHtml(course.course_name)}</div>
             <div class="rooms-title">Assigned Classrooms (70 seats) & Labs:</div>
             <div class="rooms">${roomStr}</div>
-            <div class="invigilators">Invigilators required: ${course.invigilators || Math.ceil(course.student_count / 35)}</div>
+            <div class="invigilators">Invigilators required: ${escapeHtml(course.invigilators || Math.ceil(course.student_count / 35))}</div>
           </div>`;
       });
 
       slotsHTML += `
         <div class="slot-section" style="border-left: 5px solid ${color}">
           <div class="slot-header" style="background: ${color}15; border-bottom: 2px solid ${color}40">
-            <h2 style="color: ${color}">${slot.slot_label || `Slot ${slot.slot_id}`}</h2>
-            <p>Courses scheduled: ${slot.courses ? slot.courses.length : 0} | Total students in slot: ${slot.total_slot_students || 0}</p>
+            <h2 style="color: ${color}">${escapeHtml(slot.slot_label || `Slot ${slot.slot_id}`)}</h2>
+            <p>Courses scheduled: ${slot.courses ? slot.courses.length : 0} | Total students in slot: ${escapeHtml(slot.total_slot_students || 0)}</p>
           </div>
           <div class="courses-grid">${coursesHTML}</div>
         </div>`;
@@ -459,15 +469,15 @@ app.post("/api/export/html", (req, res) => {
   <div class="summary">
     <div class="stat-card"><div class="value">${summary.total_students || 4000}</div><div class="label">Total Students</div></div>
     <div class="stat-card"><div class="value">${summary.total_courses || 0}</div><div class="label">Total Courses</div></div>
-    <div class="stat-card"><div class="value">${summary.slots_required || 0}</div><div class="label">Exam Slots Required (&chi;(G))</div></div>
-    <div class="stat-card"><div class="value">${summary.clashes_resolved || 0}</div><div class="label">Clashes Resolved</div></div>
+    <div class="stat-card"><div class="value">${summary.slots_required || 0}</div><div class="label">Exam Slots Used (heuristic)</div></div>
+    <div class="stat-card"><div class="value">${summary.conflict_pairs || 0}</div><div class="label">Conflicting Course Pairs</div></div>
     <div class="stat-card"><div class="value">${summary.total_rooms || 208}</div><div class="label">Total Campus Rooms</div></div>
   </div>
   <div class="content">${slotsHTML}</div>
   <div class="footer">
-    Algorithm: ${summary.algorithm || "Welsh-Powell Graph Coloring"} &nbsp;|&nbsp;
-    Graph Density: ${summary.graph_density || "N/A"} &nbsp;|&nbsp;
-    Chromatic Number &chi;(G) = ${summary.chromatic_number || summary.slots_required || 0}
+    Algorithm: ${escapeHtml(summary.algorithm || "Welsh-Powell Graph Coloring")} &nbsp;|&nbsp;
+    Graph Density: ${escapeHtml(summary.graph_density ?? "N/A")} &nbsp;|&nbsp;
+    Slots used by Welsh-Powell = ${escapeHtml(summary.slots_required || 0)}
   </div>
 </body>
 </html>`;

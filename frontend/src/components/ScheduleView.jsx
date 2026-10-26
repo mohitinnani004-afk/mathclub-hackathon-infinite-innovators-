@@ -322,7 +322,7 @@ export default function ScheduleView({ schedule }) {
         </div>
         <div>
           Algorithm:{' '}
-          <strong style={{ color: slotColor }}>Welsh-Powell Graph Coloring χ(G)</strong>
+          <strong style={{ color: slotColor }}>Welsh-Powell heuristic coloring</strong>
         </div>
       </div>
     </div>

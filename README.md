@@ -3,7 +3,7 @@
 
 > **Theme 1: Academic Related Issues / Cross-over with Math & CS**
 
-A full-stack system that uses **Welsh-Powell graph coloring** to compute optimal, clash-free exam schedules from raw student enrollment data.
+A full-stack system that uses **Welsh-Powell graph coloring** to generate clash-free exam schedules from raw student enrollment data. Welsh-Powell is a greedy heuristic and does not guarantee the minimum number of slots.
 
 ---
 
@@ -14,16 +14,16 @@ A full-stack system that uses **Welsh-Powell graph coloring** to compute optimal
 - **E** = edge between A ↔ B if any student is enrolled in both
 - **W** = number of shared students (conflict intensity)
 
-**Welsh-Powell Algorithm** computes χ(G) — the **chromatic number** — which is the minimum number of exam slots needed to guarantee zero clashes:
+**Welsh-Powell** assigns courses to valid exam slots using a greedy graph-coloring heuristic:
 
 ```
 1. Sort courses by degree (descending)
 2. Assign smallest available slot to highest-degree course
 3. Repeat until all courses are colored
-4. χ(G) = number of colors used = minimum slots required
+4. Number of colors used = slots in this valid schedule (may not be the minimum)
 ```
 
-**Room Allocation** uses **Greedy Bin-Packing** (first-fit decreasing) to distribute students across available halls/rooms.
+**Room Allocation** assigns each course's students to distinct rooms within a slot. If the configured room inventory is insufficient, the output flags the affected courses as overflow.
 
 ---
 
@@ -163,10 +163,9 @@ S102,PHY1001,Engineering Physics
 
 ## 🎯 Key Features
 
-- ✅ **Zero exam clashes** — guaranteed by graph coloring theory
-- ✅ **Minimum slots** — chromatic number χ(G) is mathematically optimal
+- ✅ **Clash-free slots** — no adjacent courses share a slot; slot count is a heuristic result
 - ✅ **Visual proof** — the conflict graph shows no two adjacent nodes share a color
-- ✅ **Room allocation** — greedy bin-packing across configurable room list
+- ✅ **Room allocation** — distinct rooms for concurrent courses, with overflow reporting
 - ✅ **Export** — Excel workbook (3 sheets) + printable HTML report
-- ✅ **Scalable** — tested with 250 students × 15 courses in <100ms
+- ✅ **Scalable demo** — includes a 4,000-student dataset
 - ✅ **Offline mode** — full dashboard works without any backend
