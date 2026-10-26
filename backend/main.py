@@ -176,6 +176,65 @@ def welsh_powell_coloring(G: nx.Graph) -> Dict[str, int]:
     return coloring
 
 
+def dsatur_coloring(G: nx.Graph) -> Dict[str, int]:
+    """DSATUR greedy coloring; a useful heuristic, not an exact optimizer."""
+    coloring: Dict[str, int] = {}
+    uncolored = set(G.nodes())
+
+    while uncolored:
+        def priority(node: str):
+            saturation = len({
+                coloring[neighbor]
+                for neighbor in G.neighbors(node)
+                if neighbor in coloring
+            })
+            return (saturation, G.degree(node), str(node))
+
+        node = max(uncolored, key=priority)
+        neighbor_colors = {
+            coloring[neighbor]
+            for neighbor in G.neighbors(node)
+            if neighbor in coloring
+        }
+        slot = 1
+        while slot in neighbor_colors:
+            slot += 1
+        coloring[node] = slot
+        uncolored.remove(node)
+
+    return coloring
+
+
+def validate_coloring(G: nx.Graph, coloring: Dict[str, int]) -> List[tuple]:
+    """Return conflict edges assigned to the same exam slot."""
+    return [(u, v) for u, v in G.edges() if coloring.get(u) == coloring.get(v)]
+
+
+def choose_best_coloring(G: nx.Graph):
+    """Choose the valid coloring using fewer slots from two greedy heuristics."""
+    candidates = [
+        ("Welsh-Powell Graph Coloring", welsh_powell_coloring(G)),
+        ("DSATUR Graph Coloring", dsatur_coloring(G)),
+    ]
+    valid = [
+        (name, colors) for name, colors in candidates
+        if not validate_coloring(G, colors)
+    ]
+    if not valid:
+        raise ValueError("No valid exam schedule could be generated")
+
+    # Preserve the existing algorithm on ties.
+    name, coloring = min(
+        valid,
+        key=lambda item: (
+            max(item[1].values(), default=0),
+            0 if item[0] == "Welsh-Powell Graph Coloring" else 1,
+        ),
+    )
+    baseline_slots = max(candidates[0][1].values(), default=0)
+    return coloring, name, baseline_slots
+
+
 def allocate_slot_rooms(courses_in_slot: List[Dict[str, Any]], rooms: List[Dict[str, Any]]) -> None:
     """
     Allocates distinct, collision-free rooms for all courses running concurrently in a slot.
@@ -226,7 +285,9 @@ def build_output_schema(
     records: List[Dict[str, str]],
     G: nx.Graph,
     coloring: Dict[str, int],
-    rooms: List[Dict[str, Any]]
+    rooms: List[Dict[str, Any]],
+    algorithm_name: str = "Welsh-Powell Graph Coloring",
+    baseline_slots: Optional[int] = None
 ) -> Dict[str, Any]:
     """Package solver results into complete, frontend-ready schema."""
     unique_students = {r["student_id"] for r in records}
@@ -320,11 +381,13 @@ def build_output_schema(
             "total_courses":     len(unique_courses),
             "slots_required":    slots_used,
             "conflict_pairs":    conflict_pairs,
+            "algorithm":         algorithm_name,
+            "slots_before_optimization": baseline_slots if baseline_slots is not None else slots_used,
+            "slots_saved":       max(0, (baseline_slots if baseline_slots is not None else slots_used) - slots_used),
             "slot_count_is_heuristic": True,
             "room_allocation_feasible": not overflow_courses,
             "overflow_courses": sorted(set(overflow_courses)),
             "graph_density":     round(nx.density(G), 4),
-            "algorithm":         "Welsh-Powell Graph Coloring",
             "total_rooms":       len(rooms),
             "max_slot_capacity": sum(r["capacity"] for r in rooms),
             "building_blocks":   ["CB (5 Floors)", "AB1 (4 Floors)", "AB2 (4 Floors)"],
@@ -455,9 +518,13 @@ async def schedule_exams(
             records = parse_csv_content(content_str)
 
         rooms    = json.loads(rooms_json) if rooms_json else DEFAULT_ROOMS
-        G        = build_conflict_graph(records)
-        coloring = welsh_powell_coloring(G)
-        result   = build_output_schema(records, G, coloring, rooms)
+        G = build_conflict_graph(records)
+        coloring, algorithm_name, baseline_slots = choose_best_coloring(G)
+        result = build_output_schema(
+            records, G, coloring, rooms,
+            algorithm_name=algorithm_name,
+            baseline_slots=baseline_slots,
+        )
         return JSONResponse(content=result)
 
     except ValueError as e:
@@ -484,9 +551,13 @@ async def solve_from_json(payload: dict):
             for r in enrollments if r.get("student_id") and r.get("course_code")
         ]
 
-        G        = build_conflict_graph(records)
-        coloring = welsh_powell_coloring(G)
-        result   = build_output_schema(records, G, coloring, rooms)
+        G = build_conflict_graph(records)
+        coloring, algorithm_name, baseline_slots = choose_best_coloring(G)
+        result = build_output_schema(
+            records, G, coloring, rooms,
+            algorithm_name=algorithm_name,
+            baseline_slots=baseline_slots,
+        )
         return JSONResponse(content=result)
 
     except ValueError as e:
